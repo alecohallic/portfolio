@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: #FF6347;
     color: white;
     padding: 40px;
     text-align: center;
@@ -52,10 +52,10 @@ nav a:hover {
 }
 
 main {
-    background-image: url('./portfolio/images/SemiC.png');
+    background-image: url('./images/SemiC.png');
     background-size: cover;
     background-position: center;
-    background-color: rgba(240, 244, 248, 0.9); /* Gray filter */
+    background-color: rgba(240, 244, 248, 0.5); /* Gray filter */
     padding: 40px;
     border-radius: 10px;
     margin-bottom: 30px;
