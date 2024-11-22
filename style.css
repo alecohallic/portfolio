@@ -55,7 +55,7 @@ main {
     background-image: url('./images/SemiC.png');
     background-size: cover;
     background-position: center;
-    background-color: rgba(240, 244, 248, 0.5); /* Gray filter */
+    background-color: rgba(120, 244, 248, 0.5); /* light blue filter */
     padding: 40px;
     border-radius: 10px;
     margin-bottom: 30px;
