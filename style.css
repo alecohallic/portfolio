@@ -12,17 +12,6 @@ body {
     padding: 0 20px;
 }
 
-main {
-    background-image: url('https://pegglass.com/wp-content/uploads/2020/07/semiconductor-1-1024.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* Keeps the background fixed when scrolling */
-    background-blend-mode: overlay;
-    background-color: rgba(240, 244, 248, 0.9); /* Light gray overlay with opacity */
-    padding: 2rem 1rem;
-    border-radius: 10px;
-}
-
 header {
     background-color: #FF6347;
     color: white;
@@ -60,6 +49,16 @@ nav a {
 nav a:hover {
     color: white;
     background-color: #FF6347;
+}
+
+main {
+    background-image: url('./portfolio/images/SemiC.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(240, 244, 248, 0.9); /* Gray filter */
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 section {
