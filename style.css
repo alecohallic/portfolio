@@ -1,100 +1,104 @@
-/* General styles */
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f9f9f9;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0F4F8;
     color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
 }
 
 header {
-    background-color: #2a2a2a;
-    color: #fff;
+    background: #FF6347;
+    color: white;
+    padding: 40px;
     text-align: center;
-    padding: 30px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2.5em;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
 header p {
-    font-size: 1.2em;
-    margin-top: 10px;
+    font-size: 1.1rem;
 }
 
 nav {
     text-align: center;
-    margin: 20px 0;
+    margin-bottom: 50px;
 }
 
 nav a {
-    margin: 0 20px;
-    text-decoration: none;
     color: #333;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 0 20px;
     font-weight: bold;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 8px 12px;
+    border-radius: 5px;
 }
 
 nav a:hover {
-    color: #fff;
-    background-color: #5cb85c;
-    border-radius: 5px;
-    padding: 5px 10px;
+    color: white;
+    background-color: #FF6347;
 }
 
 section {
-    padding: 60px 30px;
-    margin: 30px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-section.visible {
-    opacity: 1;
-    transform: translateY(0);
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
 }
 
-section p,
 section ul {
-    font-size: 1.1em;
-}
-
-ul {
     list-style: none;
-    padding: 0;
 }
 
-ul li {
-    margin: 10px 0;
+section ul li {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+section div {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #FF6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 footer {
-    background-color: #2a2a2a;
-    color: #fff;
+    background-color: #FF6347;
+    color: white;
+    padding: 10px;
     text-align: center;
-    padding: 20px;
-    position: fixed;
-    width: 100%;
+    margin-top: 40px;
+    border-radius: 8px;
+    position: relative;
     bottom: 0;
-    font-size: 0.9em;
+    width: 100%;
 }
 
-/* Animation for smooth fade-in */
-html {
-    scroll-behavior: smooth;
+footer p {
+    font-size: 1rem;
 }
